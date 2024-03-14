@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image Example</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('../Images/flower__gradient_bg-02.png'); /* Replace 'background.jpg' with the path to your image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Keeps the background image fixed while the page scrolls */
+    }
+
+    h1 {
+        text-align: left;
+        padding: 20px;
+        color: black;
+        font-size: 40px;
+        font-family: Helvetica;
+    }
+
+    .flower_week1 {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week2 {
+        position: absolute;
+        bottom: 0;
+        left: 15%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week3 {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week4 {
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week5 {
+        position: absolute;
+        bottom: 0;
+        left: 45%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week6 {
+        position: absolute;
+        bottom: 0;
+        left: 55%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week7 {
+        position: absolute;
+        bottom: 0;
+        left: 65%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week8 {
+        position: absolute;
+        bottom: 0;
+        left: 75%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week9 {
+        position: absolute;
+        bottom: 0;
+        left: 85%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week10 {
+        position: absolute;
+        bottom: 0;
+        left: 95%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week11 {
+        position: absolute;
+        bottom: 0;
+        left: 105%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week12 {
+        position: absolute;
+        bottom: 0;
+        left: 115%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .window {
+    font-family:monospace;
+    background-color:azure;
+    border: 2px solid #000;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    cursor: grab;
+    overflow-y: scroll;
+  }
+    
+</style>
+</head>
+<body>
+<h1>Flower Garden</h1>
+
+<div class="window"id= mywindow>
+    <div class="window-header" id="window-header">Drag me!</div>
+    <div class="window-content">
+        <!-- Window content goes here -->
+        This is a draggable window. You can add any content here.
+    </div>
+</div>
+
+<!-- Your content goes here -->
+
+<img class="flower_week1" src="../images/flower-03.png" alt="Flower" onclick="openPopup()">
+
+<script>
+    function openPopup() {
+    var screenWidth = window.screen.availWidth;
+    var screenHeight = window.screen.availHeight;
+    var popupWidth = 400; // Adjust as needed
+    var popupHeight = 500; // Adjust as needed
+    var leftPosition = screenWidth - popupWidth - 40;
+    var topPosition = screenHeight - popupHeight - 300; // Adjust the value (-20) as needed
+    window.open("week_1_two_column.html", "_blank", "width=" + popupWidth + ", height=" + popupHeight + ", left=" + leftPosition + ", top=" + topPosition);
+    }
+
+    
+</script>
+
+<img class="flower_week2" src="../images/flower-04.png" alt="Flower">
+<img class="flower_week3" src="../images/flower-03.png" alt="Flower">
+<img class="flower_week4" src="../images/flower-04.png" alt="Flower">
+<img class="flower_week5" src="../images/flower-03.png" alt="Flower">
+<img class="flower_week6" src="../images/flower-04.png" alt="Flower">
+<img class="flower_week7" src="../images/flower-03.png" alt="Flower">
+<img class="flower_week8" src="../images/flower-04.png" alt="Flower">
+<img class="flower_week9" src="../images/flower-03.png" alt="Flower">
+<img class="flower_week10" src="../images/flower-04.png" alt="Flower">
+<img class="flower_week11" src="../images/flower-03.png" alt="Flower">
+<img class="flower_week12" src="../images/flower-04.png" alt="Flower">
+
+
+</body>
+</html>
