@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image Example</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('../Images/flower__gradient_bg-02.png'); /* Replace 'background.jpg' with the path to your image */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Keeps the background image fixed while the page scrolls */
+    }
+
+    h1 {
+        text-align: left;
+        padding: 20px;
+        color: black;
+        font-size: 40px;
+        font-family: Helvetica;
+    }
+
+    .flower_week1 {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .flower_week2 {
+        position: absolute;
+        bottom: 0;
+        left: 15%;
+        transform: translateX(-50%);
+        width: 125px; /* Adjust the width as needed */
+        height: auto;
+    }
+
+    .popup-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(168, 22, 22, 0.5); /* Semi-transparent black background */
+        z-index: 999; /* Ensure popup is on top */
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popup-content {
+        background-color: rgb(152, 21, 21);
+        padding: 20px;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+<h1>Flower Garden</h1>
+
+<!-- Your content goes here -->
+
+<img class="flower_week1" src="../Images/flower-03.png" alt="Flower" onclick="openPopup()">
+
+<div class="popup-container" id="popup">
+    <div class="popup-content">
+        <p>Week 1</p>
+        <img src="file:///C:/Users/brsus/Documents/Interactive_Media_SEM_1/Research_Journal/Images/candy_box.png">
+        <!-- Popup content goes here -->
+        <p>This is the popup content. You can add any content here.</p>
+        <button onclick="togglePopup()">Close</button>
+    </div>
+</div>
+
+<script>
+    function togglePopup() {
+        var popup = document.getElementById("popup");
+        if (popup.style.display === "none") {
+            popup.style.display = "flex";
+        } else {
+            popup.style.display = "none";
+        }
+    }
+</script>
+
+<img class="flower_week2" src="../Images/flower-04.png" alt="Flower">
+
+</body>
+</html>
