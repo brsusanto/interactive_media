@@ -182,7 +182,7 @@ color: #fff;
 }
 
 /* Styles for the button */
-.toggleButton {
+.togglebutton {
     position: absolute;
     top: 19px; /* Adjust as needed */
     right: 20px; /* Adjust as needed */
