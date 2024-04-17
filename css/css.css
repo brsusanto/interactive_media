@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../images/flower_gradient_bg.png');  Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background image fixed while the page scrolls */
+    height: 100%;
+    overflow-y: hidden;
+    
+}
+
+h1 {
+    text-align: left;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+.cursor {
+    cursor: url('../images/can5.svg'), auto; /* Specify the path to your cursor image */
+}
+
+.flower_week1 {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week2 {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week3 {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week4 {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week5 {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week6 {
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week7 {
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week8 {
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week9 {
+    position: absolute;
+    bottom: 0;
+    left: 85%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week10 {
+    position: absolute;
+    bottom: 0;
+    left: 95%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week11 {
+    position: absolute;
+    bottom: 0;
+    left: 105%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.flower_week12 {
+    position: absolute;
+    bottom: 0;
+    left: 115%;
+    transform: translateX(-50%);
+    width: 125px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.window {
+font-family:monospace;
+background-color:azure;
+border: 2px solid #000;
+position: absolute;
+top: 100px;
+left: 20px;
+width: auto;
+height: auto;
+padding: 10px;
+cursor: grab;
+overflow-y: scroll;
+}
+
+.land {
+font-family:monospace;
+background-color:rgb(0, 0, 0);
+border: 2px solid #000;
+position: absolute;
+bottom: 0px;
+left: 0px;
+width: 1830px;
+height: 2px;
+padding: 5px;
+}
+
+
+.popup {
+font-family:monospace;
+background-color:azure;
+border: 3px solid #000;
+position: absolute;
+top: 60px;
+left: 800px;
+width: 600px;
+height: 500px;
+padding: 10px;
+overflow-y: scroll;
+
+}
+
+.popupheader {
+font-family:Helvetica;
+font-size: 15px;
+text-align: center;
+padding: 10px;
+cursor: move;
+z-index: 10;
+background-color: #000000;
+color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styles for the button */
+#toggleButton {
+    position: absolute;
+    top: 19px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    width: 20px; /* Adjust width and height to match the image size */
+    height: 20px;
+    background: url('../images/closebutton.png') no-repeat center center; /* Replace 'path/to/image.png' with the path to your image */
+    background-size: cover; /* Ensure the image covers the entire button */
+    border: none;
+}
+
+.window-content {
+    padding: 10px;
+
+}
+
+
+#bg-video {
+position: fixed;
+left: 0;
+top: 0;
+z-index: -10;
+min-width: 100vw;
+min-height: 100vh;
+}
+
+.imgcontent {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+figcaption {
+background-color: black;
+color: white;
+font-style: italic;
+font-size: small;
+}
+
+.iframe-container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 10px;
+  
+}
+
+.iframe1 {
+    left: 125%;
+}
+
+.iframe2 {
+    left: 95%;
+}
+
+.iframe3 {
+    left: 160%;
+}
+
+
+.sketchbutton {
+    position: fixed;
+    right: 30px;
+}
+
+#toggleIframe1 {
+    top: 100px;
+}
+
+#toggleIframe2 {
+    top: 130px;
+}
+
+#toggleIframe3 {
+    top: 160px;
+}
+
+#toggleIframe4 {
+    top: 190px;
+}
+
+#toggleIframe5 {
+    top: 220px;
+}
