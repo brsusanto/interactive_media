@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-image: url('../images/flower_gradient_bg.png');  Replace 'background.jpg' with the path to your image */
+    /* background-image: url('/images/flower_gradient_bg.png');  Replace 'background.jpg' with the path to your image */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps the background image fixed while the page scrolls */
@@ -193,7 +193,7 @@ color: #fff;
     right: 20px; /* Adjust as needed */
     width: 20px; /* Adjust width and height to match the image size */
     height: 20px;
-    background: url('../images/closebutton.png') no-repeat center center; /* Replace 'path/to/image.png' with the path to your image */
+    background: url('/images/closebutton.png') no-repeat center center; /* Replace 'path/to/image.png' with the path to your image */
     background-size: cover; /* Ensure the image covers the entire button */
     border: none;
 }
