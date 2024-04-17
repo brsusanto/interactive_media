@@ -19,7 +19,7 @@ h1 {
 }
 
 .cursor {
-    cursor: url('../images/can5.svg'), auto; /* Specify the path to your cursor image */
+    cursor: url('/images/can5.svg'), auto; /* Specify the path to your cursor image */
 }
 
 .flower_week1 {
